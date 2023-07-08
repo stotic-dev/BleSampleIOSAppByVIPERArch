@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC979D922A48243C00A8B789 /* BlePeripheralDetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC979D912A48243C00A8B789 /* BlePeripheralDetailEntity.swift */; };
+		BC979D942A4B2B9400A8B789 /* BleAdvertisementType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC979D932A4B2B9400A8B789 /* BleAdvertisementType.swift */; };
+		BC979D962A4EDD8900A8B789 /* BlePeripheralAdvertiseConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC979D952A4EDD8900A8B789 /* BlePeripheralAdvertiseConverter.swift */; };
+		BCD569D82A44619D008905DD /* BleSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD569D72A44619D008905DD /* BleSampleApp.swift */; };
+		BCD569DA2A44619D008905DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD569D92A44619D008905DD /* ContentView.swift */; };
+		BCD569DC2A44619F008905DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD569DB2A44619F008905DD /* Assets.xcassets */; };
+		BCD569DF2A44619F008905DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD569DE2A44619F008905DD /* Preview Assets.xcassets */; };
+		BCD569E72A4461E8008905DD /* BleMngViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD569E62A4461E8008905DD /* BleMngViewModel.swift */; };
+		BCD569EC2A44629D008905DD /* BleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD569EB2A44629D008905DD /* BleManager.swift */; };
+		BCD569EF2A446501008905DD /* BleConnectableListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD569EE2A446501008905DD /* BleConnectableListView.swift */; };
+		BCD569F22A44908B008905DD /* UtilityViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD569F12A44908B008905DD /* UtilityViews.swift */; };
+		BCD569F42A449660008905DD /* ContentViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD569F32A449660008905DD /* ContentViewPresenter.swift */; };
+		BCD569F92A468E86008905DD /* ContentViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD569F82A468E86008905DD /* ContentViewRouter.swift */; };
+		BCD569FC2A469577008905DD /* ContentViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD569FB2A469577008905DD /* ContentViewInteractor.swift */; };
+		BCD569FE2A46A073008905DD /* BleConnectableListViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD569FD2A46A073008905DD /* BleConnectableListViewRouter.swift */; };
+		BCD56A002A46A121008905DD /* BleConnectableListViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD569FF2A46A121008905DD /* BleConnectableListViewPresenter.swift */; };
+		BCD56A022A46A230008905DD /* BleConnectableListViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD56A012A46A230008905DD /* BleConnectableListViewInteractor.swift */; };
+		BCD56A042A46AECA008905DD /* BleConnectTargetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD56A032A46AECA008905DD /* BleConnectTargetDetailView.swift */; };
+		BCD56A062A46B0D0008905DD /* BlePeripheralEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD56A052A46B0CF008905DD /* BlePeripheralEntity.swift */; };
+		BCD56A082A481462008905DD /* BleConnectTargetDetailViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD56A072A481462008905DD /* BleConnectTargetDetailViewPresenter.swift */; };
+		BCD56A0A2A48170E008905DD /* BleConnectTargetDetailViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD56A092A48170E008905DD /* BleConnectTargetDetailViewRouter.swift */; };
+		BCD56A0C2A48182C008905DD /* BleConnectTargetDetailViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD56A0B2A48182C008905DD /* BleConnectTargetDetailViewInteractor.swift */; };
+		BCD56A0E2A481C7D008905DD /* BlePeripheralDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD56A0D2A481C7D008905DD /* BlePeripheralDetailViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC979D912A48243C00A8B789 /* BlePeripheralDetailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlePeripheralDetailEntity.swift; sourceTree = "<group>"; };
+		BC979D932A4B2B9400A8B789 /* BleAdvertisementType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleAdvertisementType.swift; sourceTree = "<group>"; };
+		BC979D952A4EDD8900A8B789 /* BlePeripheralAdvertiseConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlePeripheralAdvertiseConverter.swift; sourceTree = "<group>"; };
+		BCD569D42A44619D008905DD /* BleSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BleSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD569D72A44619D008905DD /* BleSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleSampleApp.swift; sourceTree = "<group>"; };
+		BCD569D92A44619D008905DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BCD569DB2A44619F008905DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCD569DE2A44619F008905DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCD569E62A4461E8008905DD /* BleMngViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleMngViewModel.swift; sourceTree = "<group>"; };
+		BCD569EB2A44629D008905DD /* BleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleManager.swift; sourceTree = "<group>"; };
+		BCD569EE2A446501008905DD /* BleConnectableListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleConnectableListView.swift; sourceTree = "<group>"; };
+		BCD569F02A4469BA008905DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BCD569F12A44908B008905DD /* UtilityViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityViews.swift; sourceTree = "<group>"; };
+		BCD569F32A449660008905DD /* ContentViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewPresenter.swift; sourceTree = "<group>"; };
+		BCD569F82A468E86008905DD /* ContentViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRouter.swift; sourceTree = "<group>"; };
+		BCD569FB2A469577008905DD /* ContentViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewInteractor.swift; sourceTree = "<group>"; };
+		BCD569FD2A46A073008905DD /* BleConnectableListViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleConnectableListViewRouter.swift; sourceTree = "<group>"; };
+		BCD569FF2A46A121008905DD /* BleConnectableListViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleConnectableListViewPresenter.swift; sourceTree = "<group>"; };
+		BCD56A012A46A230008905DD /* BleConnectableListViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleConnectableListViewInteractor.swift; sourceTree = "<group>"; };
+		BCD56A032A46AECA008905DD /* BleConnectTargetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleConnectTargetDetailView.swift; sourceTree = "<group>"; };
+		BCD56A052A46B0CF008905DD /* BlePeripheralEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlePeripheralEntity.swift; sourceTree = "<group>"; };
+		BCD56A072A481462008905DD /* BleConnectTargetDetailViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleConnectTargetDetailViewPresenter.swift; sourceTree = "<group>"; };
+		BCD56A092A48170E008905DD /* BleConnectTargetDetailViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleConnectTargetDetailViewRouter.swift; sourceTree = "<group>"; };
+		BCD56A0B2A48182C008905DD /* BleConnectTargetDetailViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleConnectTargetDetailViewInteractor.swift; sourceTree = "<group>"; };
+		BCD56A0D2A481C7D008905DD /* BlePeripheralDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlePeripheralDetailViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCD569D12A44619D008905DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC979D972A4EDD8C00A8B789 /* Converter */ = {
+			isa = PBXGroup;
+			children = (
+				BC979D952A4EDD8900A8B789 /* BlePeripheralAdvertiseConverter.swift */,
+			);
+			path = Converter;
+			sourceTree = "<group>";
+		};
+		BCD569CB2A44619D008905DD = {
+			isa = PBXGroup;
+			children = (
+				BCD569D62A44619D008905DD /* BleSample */,
+				BCD569D52A44619D008905DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD569D52A44619D008905DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD569D42A44619D008905DD /* BleSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD569D62A44619D008905DD /* BleSample */ = {
+			isa = PBXGroup;
+			children = (
+				BCD569F02A4469BA008905DD /* Info.plist */,
+				BCD569D72A44619D008905DD /* BleSampleApp.swift */,
+				BC979D972A4EDD8C00A8B789 /* Converter */,
+				BCD569FA2A469554008905DD /* Interactor */,
+				BCD569F72A468E76008905DD /* Router */,
+				BCD569F52A468E53008905DD /* View */,
+				BCD569F62A468E66008905DD /* Presenter */,
+				BCD569ED2A4462E6008905DD /* Manager */,
+				BCD569E82A44621B008905DD /* Entities */,
+				BCD569E52A4461B7008905DD /* ViewModel */,
+				BCD569DB2A44619F008905DD /* Assets.xcassets */,
+				BCD569DD2A44619F008905DD /* Preview Content */,
+			);
+			path = BleSample;
+			sourceTree = "<group>";
+		};
+		BCD569DD2A44619F008905DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BCD569DE2A44619F008905DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BCD569E52A4461B7008905DD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BCD569E62A4461E8008905DD /* BleMngViewModel.swift */,
+				BCD56A0D2A481C7D008905DD /* BlePeripheralDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BCD569E82A44621B008905DD /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				BC979D932A4B2B9400A8B789 /* BleAdvertisementType.swift */,
+				BCD56A052A46B0CF008905DD /* BlePeripheralEntity.swift */,
+				BC979D912A48243C00A8B789 /* BlePeripheralDetailEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		BCD569ED2A4462E6008905DD /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				BCD569EB2A44629D008905DD /* BleManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		BCD569F52A468E53008905DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCD569F12A44908B008905DD /* UtilityViews.swift */,
+				BCD569D92A44619D008905DD /* ContentView.swift */,
+				BCD569EE2A446501008905DD /* BleConnectableListView.swift */,
+				BCD56A032A46AECA008905DD /* BleConnectTargetDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCD569F62A468E66008905DD /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BCD569FF2A46A121008905DD /* BleConnectableListViewPresenter.swift */,
+				BCD56A072A481462008905DD /* BleConnectTargetDetailViewPresenter.swift */,
+				BCD569F32A449660008905DD /* ContentViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		BCD569F72A468E76008905DD /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				BCD569FD2A46A073008905DD /* BleConnectableListViewRouter.swift */,
+				BCD56A092A48170E008905DD /* BleConnectTargetDetailViewRouter.swift */,
+				BCD569F82A468E86008905DD /* ContentViewRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		BCD569FA2A469554008905DD /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				BCD56A012A46A230008905DD /* BleConnectableListViewInteractor.swift */,
+				BCD56A0B2A48182C008905DD /* BleConnectTargetDetailViewInteractor.swift */,
+				BCD569FB2A469577008905DD /* ContentViewInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCD569D32A44619D008905DD /* BleSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD569E22A44619F008905DD /* Build configuration list for PBXNativeTarget "BleSample" */;
+			buildPhases = (
+				BCD569D02A44619D008905DD /* Sources */,
+				BCD569D12A44619D008905DD /* Frameworks */,
+				BCD569D22A44619D008905DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BleSample;
+			productName = BleSample;
+			productReference = BCD569D42A44619D008905DD /* BleSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCD569CC2A44619D008905DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BCD569D32A44619D008905DD = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = BCD569CF2A44619D008905DD /* Build configuration list for PBXProject "BleSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCD569CB2A44619D008905DD;
+			productRefGroup = BCD569D52A44619D008905DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD569D32A44619D008905DD /* BleSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCD569D22A44619D008905DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD569DF2A44619F008905DD /* Preview Assets.xcassets in Resources */,
+				BCD569DC2A44619F008905DD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD569D02A44619D008905DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD56A082A481462008905DD /* BleConnectTargetDetailViewPresenter.swift in Sources */,
+				BCD56A0A2A48170E008905DD /* BleConnectTargetDetailViewRouter.swift in Sources */,
+				BCD56A062A46B0D0008905DD /* BlePeripheralEntity.swift in Sources */,
+				BCD569F22A44908B008905DD /* UtilityViews.swift in Sources */,
+				BCD56A0E2A481C7D008905DD /* BlePeripheralDetailViewModel.swift in Sources */,
+				BC979D962A4EDD8900A8B789 /* BlePeripheralAdvertiseConverter.swift in Sources */,
+				BCD56A042A46AECA008905DD /* BleConnectTargetDetailView.swift in Sources */,
+				BC979D942A4B2B9400A8B789 /* BleAdvertisementType.swift in Sources */,
+				BCD56A0C2A48182C008905DD /* BleConnectTargetDetailViewInteractor.swift in Sources */,
+				BCD56A022A46A230008905DD /* BleConnectableListViewInteractor.swift in Sources */,
+				BCD569EF2A446501008905DD /* BleConnectableListView.swift in Sources */,
+				BCD569FE2A46A073008905DD /* BleConnectableListViewRouter.swift in Sources */,
+				BCD569F42A449660008905DD /* ContentViewPresenter.swift in Sources */,
+				BCD569E72A4461E8008905DD /* BleMngViewModel.swift in Sources */,
+				BCD569EC2A44629D008905DD /* BleManager.swift in Sources */,
+				BCD569DA2A44619D008905DD /* ContentView.swift in Sources */,
+				BCD569F92A468E86008905DD /* ContentViewRouter.swift in Sources */,
+				BCD569D82A44619D008905DD /* BleSampleApp.swift in Sources */,
+				BC979D922A48243C00A8B789 /* BlePeripheralDetailEntity.swift in Sources */,
+				BCD569FC2A469577008905DD /* ContentViewInteractor.swift in Sources */,
+				BCD56A002A46A121008905DD /* BleConnectableListViewPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BCD569E02A44619F008905DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCD569E12A44619F008905DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCD569E32A44619F008905DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BleSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 56LYVN6DMF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BleSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taichi.satou.BleSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCD569E42A44619F008905DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BleSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 56LYVN6DMF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BleSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taichi.satou.BleSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD569CF2A44619D008905DD /* Build configuration list for PBXProject "BleSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD569E02A44619F008905DD /* Debug */,
+				BCD569E12A44619F008905DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD569E22A44619F008905DD /* Build configuration list for PBXNativeTarget "BleSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD569E32A44619F008905DD /* Debug */,
+				BCD569E42A44619F008905DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCD569CC2A44619D008905DD /* Project object */;
+}

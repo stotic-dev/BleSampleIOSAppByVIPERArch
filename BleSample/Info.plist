@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Bluetooth接続可能機器の検索と接続を行い、アクセサリーの情報を閲覧することができる</string>
+	<key>CFBundleDocumentTypes</key>
+	<array/>
+</dict>
+</plist>
